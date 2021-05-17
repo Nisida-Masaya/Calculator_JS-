@@ -1,0 +1,157 @@
+* {
+    margin: 0 auto;
+}
+
+#container {
+    width: 250px;
+    height: 400px;
+    background-color: black;
+    margin: 0 auto;
+    /*真ん中に寄せる*/
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    border-radius: 10px;
+}
+
+/*C, +/-, %ボタン*/
+
+.btn-other {
+    border-radius: 50%;
+    margin: 5px auto;
+    background: lightgray;
+    border: 1px solid lightgray;
+    color: white;
+    width: 45px;
+    height: 45px;
+    font-size: 20px;
+    outline: 0;
+}
+
+/*答えの表示*/
+
+#process {
+    text-align: right;
+    margin-top: 20px;
+    background: black;
+    width: 220px;
+    height: 25px;
+    color: gray;
+    font-size: 20px;
+    border: none;
+}
+
+#result {
+    text-align: right;
+    margin-top: 20px;
+    background: black;
+    width: 220px;
+    height: 40px;
+    color: white;
+    font-size: 30px;
+    border: none;
+}
+
+#result::placeholder {
+    color: white;
+}
+
+/*演算記号*/
+
+#enzansi {
+    background: orange;
+    border: 1px solid orange;
+    border-radius: 50%;
+    margin: 5px auto;
+    color: white;
+    justify-content: space-between;
+    width: 45px;
+    height: 45px;
+    font-size: 20px;
+    outline: 0;
+}
+#dot {
+    background: orange;
+    border: 1px solid orange;
+    border-radius: 50%;
+    margin: 5px auto;
+    color: white;
+    justify-content: space-between;
+    width: 45px;
+    height: 45px;
+    font-size: 20px;
+    outline: 0;
+}
+#equal-btn{
+    background: orange;
+    border: 1px solid orange;
+    border-radius: 50%;
+    margin: 5px auto;
+    color: white;
+    justify-content: space-between;
+    width: 45px;
+    height: 45px;
+    font-size: 20px;
+    outline: 0;
+}
+
+/*ボタンホバー色変え*/
+#equal-btn:hover {
+    background: rgb(250, 172, 94);
+}
+
+#enzansi:hover {
+    background: rgb(250, 172, 94);
+}
+#dot:hover {
+    background: rgb(250, 172, 94);
+}
+
+/*数字*/
+
+.btn-num {
+    border-radius: 50%;
+    margin: 5px auto;
+    background: rgb(75, 85, 92);
+    border: 1px solid rgb(75, 85, 92);
+    color: white;
+    justify-content: space-between;
+    width: 45px;
+    height: 45px;
+    font-size: 20px;
+    outline: 0;
+}
+
+/*ホバー色変え*/
+.btn-num:hover {
+    background: lightgray;
+}
+
+/*0*/
+
+#zero {
+    height: 45px;
+    width: 100px;
+    border-radius: 50px 50px 50px 50px;
+    text-align: left;
+    padding-left: 15px;
+}
+
+/*.(ドット)*/
+
+.btn-dot {
+    border-radius: 50%;
+    margin: 5px auto;
+    background: rgb(75, 85, 92);
+    border: 1px solid rgb(75, 85, 92);
+    color: white;
+    justify-content: space-between;
+    width: 45px;
+    height: 45px;
+    font-size: 20px;
+    outline: 0;
+}
+
+.btn-dot:hover {
+    background: lightgray;
+}

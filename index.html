@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>cyberCalc</title>
+</head>
+
+<body>
+    <div id="container">
+        <!-- 計算結果の過程表示 -->
+        <input type="text" id="process" name="process" placeholder="0" />
+
+        <!-- 計算結果を表示 -->
+        <input type="text" id="result" name="result" placeholder="0" />
+
+        <div id="top-line">
+            <input type="button" class="btn-other" id="clear" value="C" />
+            <input type="button" class="btn-other" value="+/-" />
+            <input type="button" class="btn-other" value="%" />
+            <input type="button" class="btn-num cal" id="enzansi" value="/" />
+        </div>
+        <div id="one-line">
+            <input type="button" class="btn-num one_nine" value="7" />
+            <input type="button" class="btn-num one_nine" value="8" />
+            <input type="button" class="btn-num one_nine" value="9" />
+            <input type="button" class="btn-num cal" id="enzansi" value="*" />
+        </div>
+
+        <div id="two-line">
+            <input type="button" class="btn-num one_nine" value="4" />
+            <input type="button" class="btn-num one_nine" value="5" />
+            <input type="button" class="btn-num one_nine" value="6" />
+            <input type="button" class="btn-num cal" id="enzansi" value="-" />
+        </div>
+
+        <div id="three-line">
+            <input type="button" class="btn-num one_nine" value="1" />
+            <input type="button" class="btn-num one_nine" value="2" />
+            <input type="button" class="btn-num one_nine" value="3" />
+            <input type="button" class="btn-num cal" id="enzansi" value="+" />
+        </div>
+
+        <div id="four-line">
+            <input type="button" class="btn-num " id="zero" value="0" />
+            <input type="button" class="btn-num " id="dot" value="." />
+            <input type="button" class="" id="equal-btn" value="="  />
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
